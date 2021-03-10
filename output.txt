@@ -1,28 +1,28 @@
 Filled container. 
 Container contains that elements:
 0: It is Bus, passenger capacity = 17, Engine power = 3
-25 Weight to power ratio
+425 Weight to power ratio
 
 1: It is Bus, passenger capacity = 23, Engine power = 4
-18 Weight to power ratio
+431.25 Weight to power ratio
 
 2: It is Bus, passenger capacity = 16, Engine power = 5
-15 Weight to power ratio
+240 Weight to power ratio
 
 3: It is Bus, passenger capacity = 31, Engine power = 6
-12 Weight to power ratio
+387.5 Weight to power ratio
 
 4: It is Truck, carrying capacity = 3, Engine power = 7
-0 Weight to power ratio
+0.428571 Weight to power ratio
 
 5: It is Truck, carrying capacity = 5, Engine power = 8
-0 Weight to power ratio
+0.625 Weight to power ratio
 
 6: It is Truck, carrying capacity = 7, Engine power = 9
-0 Weight to power ratio
+0.777778 Weight to power ratio
 
 7: It is Truck, carrying capacity = 4, Engine power = 10
-0 Weight to power ratio
+0.4 Weight to power ratio
 
 8: It is Bus, passenger capacity = 1, Engine power = 1
 75 Weight to power ratio
@@ -31,7 +31,7 @@ Container contains that elements:
 1 Weight to power ratio
 
 10: It is Bus, passenger capacity = 3, Engine power = 3
-25 Weight to power ratio
+75 Weight to power ratio
 
 11: It is Truck, carrying capacity = 4, Engine power = 4
 1 Weight to power ratio
@@ -40,23 +40,23 @@ Container contains that elements:
 
 Sorted Container!!!
 Container contains that elements:
-0: It is Bus, passenger capacity = 1, Engine power = 1
-75 Weight to power ratio
+0: It is Bus, passenger capacity = 23, Engine power = 4
+431.25 Weight to power ratio
 
 1: It is Bus, passenger capacity = 17, Engine power = 3
-25 Weight to power ratio
+425 Weight to power ratio
 
-2: It is Bus, passenger capacity = 3, Engine power = 3
-25 Weight to power ratio
+2: It is Bus, passenger capacity = 31, Engine power = 6
+387.5 Weight to power ratio
 
-3: It is Bus, passenger capacity = 23, Engine power = 4
-18 Weight to power ratio
+3: It is Bus, passenger capacity = 16, Engine power = 5
+240 Weight to power ratio
 
-4: It is Bus, passenger capacity = 16, Engine power = 5
-15 Weight to power ratio
+4: It is Bus, passenger capacity = 1, Engine power = 1
+75 Weight to power ratio
 
-5: It is Bus, passenger capacity = 31, Engine power = 6
-12 Weight to power ratio
+5: It is Bus, passenger capacity = 3, Engine power = 3
+75 Weight to power ratio
 
 6: It is Truck, carrying capacity = 2, Engine power = 2
 1 Weight to power ratio
@@ -64,16 +64,16 @@ Container contains that elements:
 7: It is Truck, carrying capacity = 4, Engine power = 4
 1 Weight to power ratio
 
-8: It is Truck, carrying capacity = 3, Engine power = 7
-0 Weight to power ratio
+8: It is Truck, carrying capacity = 7, Engine power = 9
+0.777778 Weight to power ratio
 
 9: It is Truck, carrying capacity = 5, Engine power = 8
-0 Weight to power ratio
+0.625 Weight to power ratio
 
-10: It is Truck, carrying capacity = 7, Engine power = 9
-0 Weight to power ratio
+10: It is Truck, carrying capacity = 3, Engine power = 7
+0.428571 Weight to power ratio
 
 11: It is Truck, carrying capacity = 4, Engine power = 10
-0 Weight to power ratio
+0.4 Weight to power ratio
 
 Container is empty!

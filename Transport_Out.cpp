@@ -5,8 +5,8 @@ using namespace std;
 
 void Out(Bus* b, ofstream& ofst);
 void Out(Truck* t, ofstream& ofst);
-int WPRatio(Bus* b);
-int WPRatio(Truck* t);
+float WPRatio(Bus* b);
+float WPRatio(Truck* t);
 
 void Out(Transport* tr, ofstream& ofst)
 {
@@ -27,7 +27,7 @@ void Out(Transport* tr, ofstream& ofst)
 	}
 };
 
-int WPRatio(Transport* tr)
+float WPRatio(Transport* tr)
 {
 	if (tr != NULL)
 	{
