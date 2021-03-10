@@ -6,5 +6,4 @@ struct Bus
 	type mKey;
 	int tPower;
 	short int mData;
-	int tRatio;
 };

@@ -10,6 +10,5 @@ Bus* InBus(ifstream& ifst)
 	b->mKey = type::BUS;
 	ifst >> b->tPower;
 	ifst >> b->mData;
-	b->tRatio = 75/ b->tPower;
 	return b;
 }

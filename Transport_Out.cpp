@@ -5,6 +5,8 @@ using namespace std;
 
 void Out(Bus* b, ofstream& ofst);
 void Out(Truck* t, ofstream& ofst);
+int WPRatio(Bus* b);
+int WPRatio(Truck* t);
 
 void Out(Transport* tr, ofstream& ofst)
 {
@@ -22,5 +24,24 @@ void Out(Transport* tr, ofstream& ofst)
 			Out((Truck*)tr, ofst);
 			break;
 		}
+	}
+};
+
+int WPRatio(Transport* tr)
+{
+	if (tr != NULL)
+	{
+		switch (tr->mKey) {
+		case type::BUS:
+			return WPRatio((Bus*)(tr));
+			break;
+		case type::TRUCK:
+			return WPRatio((Truck*)tr);
+			break;
+		}
+	}
+	else
+	{
+		return NULL;
 	}
 };

@@ -6,5 +6,4 @@ struct Truck
 	type mKey;
 	int tPower;
 	int mData;
-	int tRatio;
 };

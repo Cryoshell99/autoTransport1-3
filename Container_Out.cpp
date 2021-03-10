@@ -4,6 +4,7 @@
 using namespace std;
 
 void Out(Transport* tr, ofstream& ofst);
+int WPRatio(Transport* tr);
 
 void Out(Container& cnt, ofstream& ofst)
 {
@@ -18,6 +19,7 @@ void Out(Container& cnt, ofstream& ofst)
 		{
 			ofst << i << ": ";
 			Out(temp->L, ofst);
+			ofst  << WPRatio(temp->L) << " Weight to power ratio" << endl << endl;
 			temp = temp->Next;
 			i++;
 		} while (temp != &cnt);
