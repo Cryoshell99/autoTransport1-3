@@ -6,6 +6,39 @@ using namespace std;
 void Out(Transport* tr, ofstream& ofst);
 int WPRatio(Transport* tr);
 
+bool Compare(Transport* first, Transport* second);
+void Sort(Container*& cnt)
+{
+	//if container contains 1 element, do nothing
+	if (cnt == cnt->Next)
+	{
+		return;
+	}
+	Container* current = cnt;
+	bool flag = false;
+	Transport* temp;
+	//buble sort
+	do
+	{
+		current = cnt;
+		//if we didnt swap elements container is sorted
+		flag = false;
+		do
+		{
+			if (Compare(current->L, current->Next->L))
+			{
+				temp = current->L;
+				current->L = current->Next->L;
+				current->Next->L = temp;
+				flag = true;
+			}
+			current = current->Next;
+
+		} while (current->Next != cnt);
+	} while (flag);
+};
+
+
 void Out(Container& cnt, ofstream& ofst)
 {
 	// Если контейнер не пуст
