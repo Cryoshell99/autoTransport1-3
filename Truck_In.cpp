@@ -10,5 +10,6 @@ Truck* InTruck(ifstream& ifst)
 	t->mKey = type::TRUCK;
 	ifst >> t->tPower;
 	ifst >> t->mData;
+	ifst >> t->fuelConsumption;
 	return t;
 }

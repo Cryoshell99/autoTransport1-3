@@ -6,4 +6,5 @@ struct Truck
 	type mKey;
 	int tPower;
 	int mData;
+	double fuelConsumption;
 };

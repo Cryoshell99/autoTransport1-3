@@ -5,5 +5,5 @@
 using namespace std;
 
 void Out(Bus* b, ofstream& ofst) {
-	ofst << "It is Bus, passenger capacity = " << b->mData << ", Engine power = " << b->tPower << endl;
+	ofst << "It is Bus, passenger capacity = " << b->mData << ", Engine power = " << b->tPower << ", Fuel consumption = " << b->fuelConsumption << endl;
 };

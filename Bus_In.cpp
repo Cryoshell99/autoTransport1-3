@@ -10,5 +10,6 @@ Bus* InBus(ifstream& ifst)
 	b->mKey = type::BUS;
 	ifst >> b->tPower;
 	ifst >> b->mData;
+	ifst >> b->fuelConsumption;
 	return b;
 }
