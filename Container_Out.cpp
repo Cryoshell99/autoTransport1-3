@@ -17,7 +17,14 @@ void Out(Container& cnt, ofstream& ofst)
 		do
 		{
 			ofst << i << ": ";
-			Out(temp->L, ofst);
+			if (temp->L->mKey == type::BUS)
+			{
+				Out(temp->L, ofst);
+			}
+			else
+			{
+				ofst << endl;
+			}
 			temp = temp->Next;
 			i++;
 		} while (temp != &cnt);
