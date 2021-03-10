@@ -33,9 +33,9 @@ Transport* In(int key, ifstream& ifst)
 
 Transport* In(ifstream& ifst) 
 {
-	Transport* lg;
+	Transport* tr;
 	int k;
 	ifst >> k;
-	lg = In(k, ifst);
-	return lg;
+	tr = In(k, ifst);
+	return tr;
 };

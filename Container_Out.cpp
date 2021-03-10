@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void Out(Transport* lg, ofstream& ofst);
+void Out(Transport* tr, ofstream& ofst);
 
 void Out(Container& cnt, ofstream& ofst)
 {
