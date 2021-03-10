@@ -1,25 +1,25 @@
 #include "Container.h"
 #include "iostream"
 
-void Clear(Container*& c)
+void Clear(Container*& cnt)
 {
 	// Создаем временный контейнер
 	Container* temp;
-	temp = c->Next;
+	temp = cnt->Next;
 	// Чистим контейнер забирая содержимое
-	while (temp != c)
+	while (temp != cnt)
 	{
-		c->Next = temp->Next;
+		cnt->Next = temp->Next;
 		delete temp;
-		temp = c->Next;
+		temp = cnt->Next;
 	}
-	delete c;
-	c = nullptr;
+	delete cnt;
+	cnt = nullptr;
 };
 
-void Init(Container& c)
+void Init(Container& cnt)
 {
 	// Инициализируем
-	c.Next = &c;
-	c.L = NULL;
+	cnt.Next = &cnt;
+	cnt.L = NULL;
 };

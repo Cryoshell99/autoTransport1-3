@@ -5,7 +5,7 @@ using namespace std;
 
 Transport* In(ifstream& ifst);
 
-void In(Container& c, ifstream& ifst)
+void In(Container& cnt, ifstream& ifst)
 {
 	// Пока не достигнут конец входного потока
 	while (!ifst.eof())
@@ -13,22 +13,22 @@ void In(Container& c, ifstream& ifst)
 		// Создаем временный контейнер
 		Container* temp = new Container;
 		// Заполняем его
-		if ((&c == c.Next) && (!ifst.tellg()))
+		if ((&cnt == cnt.Next) && (!ifst.tellg()))
 		{
-			c.L = In(ifst);
+			cnt.L = In(ifst);
 		}
 		else
 		{
 			// Идем на последний элемент
-			Container* counter = c.Next;
-			while (counter->Next != &c)
+			Container* counter = cnt.Next;
+			while (counter->Next != &cnt)
 			{
 				counter = counter->Next;
 			}
 
 			counter->Next = temp;
 			temp->L = In(ifst);
-			temp->Next = &c;
+			temp->Next = &cnt;
 		}
 	}
 };

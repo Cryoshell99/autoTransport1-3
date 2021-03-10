@@ -4,6 +4,6 @@
 struct Bus
 {
 	type mKey;
-	short int tPower;
+	int tPower;
 	short int mData;
 };

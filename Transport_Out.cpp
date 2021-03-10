@@ -3,23 +3,23 @@
 
 using namespace std;
 
-void Out(Bus* p, ofstream& ofst);
-void Out(Truck* o, ofstream& ofst);
+void Out(Bus* b, ofstream& ofst);
+void Out(Truck* t, ofstream& ofst);
 
-void Out(Transport* lg, ofstream& ofst)
+void Out(Transport* tr, ofstream& ofst)
 {
-	if (lg == NULL)
+	if (tr == NULL)
 	{
 		ofst << "Incorrect type of Transport!" << endl;
 	}
 	else
 	{
-		switch (lg->mKey) {
+		switch (tr->mKey) {
 		case type::BUS:
-			Out((Bus*)(lg), ofst);
+			Out((Bus*)(tr), ofst);
 			break;
 		case type::TRUCK:
-			Out((Truck*)lg, ofst);
+			Out((Truck*)tr, ofst);
 			break;
 		}
 	}

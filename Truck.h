@@ -4,6 +4,6 @@
 struct Truck
 {
 	type mKey;
-	short int tPower;
-	short int mData;
+	int tPower;
+	int mData;
 };

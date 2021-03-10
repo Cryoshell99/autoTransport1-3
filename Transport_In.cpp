@@ -17,12 +17,12 @@ Transport* In(int key, ifstream& ifst)
 	case 2:
 		return (Transport*)InTruck(ifst);
 	default:
-		char b;
-		ifst >> b;
+		char ch;
+		ifst >> ch;
 		//
 		while (!ifst.eof() && ifst.peek() != '\n')
 		{
-			ifst >> b;
+			ifst >> ch;
 		}
 		return NULL;
 	}
@@ -30,9 +30,9 @@ Transport* In(int key, ifstream& ifst)
 
 Transport* In(ifstream& ifst) 
 {
-	Transport* lg;
+	Transport* tr;
 	int k;
 	ifst >> k;
-	lg = In(k, ifst);
-	return lg;
+	tr = In(k, ifst);
+	return tr;
 };

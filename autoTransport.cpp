@@ -5,10 +5,10 @@
 
 using namespace std;
 
-void Init(Container& c);
-void Clear(Container*& c);
-void In(Container& c, ifstream& ifst);
-void Out(Container& c, ofstream& ofst);
+void Init(Container& cnt);
+void Clear(Container*& cnt);
+void In(Container& cnt, ifstream& ifst);
+void Out(Container& cnt, ofstream& ofst);
 
 int main(int argc, char* argv[])
 {
@@ -24,18 +24,18 @@ int main(int argc, char* argv[])
 	ofstream ofst(argv[2]);
 	cout << "Start" << endl;
 	// Создаем экземпляр контейнера
-	Container* c = new Container;
+	Container* cnt = new Container;
 	// Инициализируем его
-	Init(*c);
+	Init(*cnt);
 	// Заполняем контейнер
-	In(*c, ifst);
+	In(*cnt, ifst);
 	ofst << "Filled container. " << endl;
 	// Выводим содержимое
-	Out(*c, ofst);
+	Out(*cnt, ofst);
 	// Чистим его
-	Clear(c);
+	Clear(cnt);
 	// Демностируем содержимое контейнера
-	Out(*c, ofst);
+	Out(*cnt, ofst);
 	cout << "Stop" << endl;
 	system("pause");
 
