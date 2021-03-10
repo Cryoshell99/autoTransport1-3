@@ -4,6 +4,7 @@
 
 using namespace std;
 
-void Out(Bus* b, ofstream& ofst) {
-	ofst << "It is Bus, passenger capacity = " << b->mData << ", Engine power = " << b->tPower << endl;
+void Out(Bus* b, ofstream& ofst) 
+{
+	ofst << "It is Bus, passenger capacity = " << b->mData << ", Engine power = " << b->tPower << ", Wieght to Power ratio = " << b->tRatio << endl;
 };

@@ -6,5 +6,5 @@ using namespace std;
 
 void Out(Truck* t, ofstream& ofst)
 {
-	ofst << "It is Truck, carrying capacity = " << t->mData << ", Engine power = " << t->tPower << endl;
+	ofst << "It is Truck, carrying capacity = " << t->mData << ", Engine power = " << t->tPower << ", Wieght to Power ratio = " << t->tRatio << endl;
 };

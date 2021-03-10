@@ -10,5 +10,6 @@ Truck* InTruck(ifstream& ifst)
 	t->mKey = type::TRUCK;
 	ifst >> t->tPower;
 	ifst >> t->mData;
+	t->tRatio = t->mData / t->tPower;
 	return t;
 }
