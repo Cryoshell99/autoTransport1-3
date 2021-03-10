@@ -4,7 +4,7 @@
 using namespace std;
 
 void Out(Transport* tr, ofstream& ofst);
-int WPRatio(Transport* tr);
+float WPRatio(Transport* tr);
 
 void Out(Container& cnt, ofstream& ofst)
 {
