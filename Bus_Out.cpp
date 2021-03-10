@@ -11,5 +11,5 @@ void Out(Bus* b, ofstream& ofst)
 
 float WPRatio(Bus* b)
 {
-	return (float)75/(float)b->tPower;
+	return (float)(75 * b->mData) / (float)b->tPower;
 };
