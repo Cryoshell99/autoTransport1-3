@@ -6,6 +6,7 @@ using namespace std;
 
 Truck* InTruck(ifstream& ifst);
 Bus* InBus(ifstream& ifst);
+Car* InCar(ifstream& ifst);
 
 Transport* In(int key, ifstream& ifst)
 {
@@ -16,13 +17,15 @@ Transport* In(int key, ifstream& ifst)
 		return (Transport*)InBus(ifst);
 	case 2:
 		return (Transport*)InTruck(ifst);
+	case 3:
+		return (Transport*)InCar(ifst);
 	default:
-		char b;
-		ifst >> b;
+		char ch;
+		ifst >> ch;
 		//
 		while (!ifst.eof() && ifst.peek() != '\n')
 		{
-			ifst >> b;
+			ifst >> ch;
 		}
 		return NULL;
 	}

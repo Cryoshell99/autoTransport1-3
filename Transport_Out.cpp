@@ -3,8 +3,9 @@
 
 using namespace std;
 
-void Out(Bus* p, ofstream& ofst);
-void Out(Truck* o, ofstream& ofst);
+void Out(Bus* b, ofstream& ofst);
+void Out(Truck* t, ofstream& ofst);
+void Out(Car* c, ofstream& ofst);
 
 void Out(Transport* lg, ofstream& ofst)
 {
@@ -20,6 +21,9 @@ void Out(Transport* lg, ofstream& ofst)
 			break;
 		case type::TRUCK:
 			Out((Truck*)lg, ofst);
+			break;
+		case type::CAR:
+			Out((Car*)lg, ofst);
 			break;
 		}
 	}

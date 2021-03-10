@@ -2,5 +2,6 @@
 enum type 
 {
 	TRUCK,
-	BUS
+	BUS,
+	CAR
 };

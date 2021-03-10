@@ -5,14 +5,14 @@ using namespace std;
 
 void Out(Transport* lg, ofstream& ofst);
 
-void Out(Container& c, ofstream& ofst)
+void Out(Container& cnt, ofstream& ofst)
 {
 	// Если контейнер не пуст
-	if (&c != nullptr)
+	if (&cnt != nullptr)
 	{
 		ofst << "Container contains that elements:" << endl;
 		Container *temp;
-		temp = &c;
+		temp = &cnt;
 		int i = 0;
 		do
 		{
@@ -20,7 +20,7 @@ void Out(Container& c, ofstream& ofst)
 			Out(temp->L, ofst);
 			temp = temp->Next;
 			i++;
-		} while (temp != &c);
+		} while (temp != &cnt);
 	}
 	else
 	{

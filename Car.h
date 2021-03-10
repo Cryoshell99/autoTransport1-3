@@ -1,9 +1,9 @@
 #pragma once
 #include "Type.h";
 
-struct Truck
+struct Car
 {
 	type mKey;
 	int tPower;
-	int mData;
+	short int mData;
 };
