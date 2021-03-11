@@ -4,6 +4,21 @@ Container contains that elements:
 1: It is Bus, passenger capacity = 23, Engine power = 4
 2: It is Bus, passenger capacity = 16, Engine power = 5
 3: It is Bus, passenger capacity = 31, Engine power = 6
+4: It is Truck, carrying capacity = -33686019, Engine power = 196615
+5: It is Truck, carrying capacity = -33686019, Engine power = 327688
+6: It is Truck, carrying capacity = -33686019, Engine power = 458761
+7: It is Truck, carrying capacity = -33686019, Engine power = 262154
+8: It is Bus, passenger capacity = 1, Engine power = 1
+9: It is Truck, carrying capacity = -33686019, Engine power = 131074
+10: It is Bus, passenger capacity = 3, Engine power = 3
+11: It is Truck, carrying capacity = -33686019, Engine power = 262148
+
+Only Bus transports:
+Container contains that elements:
+0: It is Bus, passenger capacity = 17, Engine power = 3
+1: It is Bus, passenger capacity = 23, Engine power = 4
+2: It is Bus, passenger capacity = 16, Engine power = 5
+3: It is Bus, passenger capacity = 31, Engine power = 6
 4: 
 5: 
 6: 

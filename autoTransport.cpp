@@ -9,6 +9,7 @@ void Init(Container& cnt);
 void Clear(Container*& cnt);
 void In(Container& cnt, ifstream& ifst);
 void Out(Container& cnt, ofstream& ofst);
+void OutBus(Container& cnt, ofstream& ofst);
 
 int main(int argc, char* argv[])
 {
@@ -32,6 +33,8 @@ int main(int argc, char* argv[])
 	ofst << "Filled container. " << endl;
 	// Выводим содержимое
 	Out(*cnt, ofst);
+	// Фильтрованный вывод
+	OutBus(*cnt, ofst);
 	// Чистим его
 	Clear(cnt);
 	// Демностируем содержимое контейнера
