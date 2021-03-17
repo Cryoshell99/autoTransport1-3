@@ -8,6 +8,7 @@ void Out(Truck* t, ofstream& ofst);
 void Out(Car* c, ofstream& ofst);
 float WPRatio(Bus* b);
 float WPRatio(Truck* t);
+float WPRatio(Car* c);
 
 float WPRatio(Transport* tr)
 {
@@ -19,6 +20,9 @@ float WPRatio(Transport* tr)
 			break;
 		case type::TRUCK:
 			return WPRatio((Truck*)tr);
+			break;
+		case type::CAR:
+			return WPRatio((Car*)tr);
 			break;
 		}
 	}

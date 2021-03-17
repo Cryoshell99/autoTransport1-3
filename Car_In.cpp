@@ -10,5 +10,6 @@ Car* InCar(ifstream& ifst)
 	c->mKey = type::CAR;
 	ifst >> c->tPower;
 	ifst >> c->mData;
+	ifst >> c->fuelConsumption;
 	return c;
 }

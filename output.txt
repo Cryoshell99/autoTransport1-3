@@ -15,11 +15,11 @@ Container contains that elements:
 4: It is Truck, carrying capacity = 3, Engine power = 7, Fuel consumption per 100 km = 2
 0.428571 Weight to power ratio
 
-5: It is Truck, carrying capacity = 5, Engine power = 8, Fuel consumption per 100 km = 1
-0.625 Weight to power ratio
+5: It is Car, maximum speed = 5, Engine power = 8, Fuel consumption per 100 km = 1
+37.5 Weight to power ratio
 
-6: It is Truck, carrying capacity = 7, Engine power = 9, Fuel consumption per 100 km = 1
-0.777778 Weight to power ratio
+6: It is Car, maximum speed = 7, Engine power = 9, Fuel consumption per 100 km = 1
+33.3333 Weight to power ratio
 
 7: It is Truck, carrying capacity = 4, Engine power = 10, Fuel consumption per 100 km = 1
 0.4 Weight to power ratio
@@ -58,17 +58,17 @@ Container contains that elements:
 5: It is Bus, passenger capacity = 3, Engine power = 3, Fuel consumption per 100 km = 1
 75 Weight to power ratio
 
-6: It is Truck, carrying capacity = 2, Engine power = 2, Fuel consumption per 100 km = 1
+6: It is Car, maximum speed = 5, Engine power = 8, Fuel consumption per 100 km = 1
+37.5 Weight to power ratio
+
+7: It is Car, maximum speed = 7, Engine power = 9, Fuel consumption per 100 km = 1
+33.3333 Weight to power ratio
+
+8: It is Truck, carrying capacity = 2, Engine power = 2, Fuel consumption per 100 km = 1
 1 Weight to power ratio
 
-7: It is Truck, carrying capacity = 4, Engine power = 4, Fuel consumption per 100 km = 1
+9: It is Truck, carrying capacity = 4, Engine power = 4, Fuel consumption per 100 km = 1
 1 Weight to power ratio
-
-8: It is Truck, carrying capacity = 7, Engine power = 9, Fuel consumption per 100 km = 1
-0.777778 Weight to power ratio
-
-9: It is Truck, carrying capacity = 5, Engine power = 8, Fuel consumption per 100 km = 1
-0.625 Weight to power ratio
 
 10: It is Truck, carrying capacity = 3, Engine power = 7, Fuel consumption per 100 km = 2
 0.428571 Weight to power ratio
